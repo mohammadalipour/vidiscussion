@@ -1,0 +1,21 @@
+{
+  "name": "webchat",
+  "version": "1.0.0",
+  "description": "",
+  "dependencies": {
+    "express": "*",
+    "serve-favicon": "*",
+    "socket.io": "*"
+  },
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "main": "src/app.js",
+  "scripts": {
+    "watch": "nodeman --watch \"src/\" --exec \"node src/app.js\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
