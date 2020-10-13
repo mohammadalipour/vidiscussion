@@ -11,4 +11,3 @@ app.use(favicon(path.join(__dirname,'favicon.ico')));
 
 //set assets folder
 app.use('/assets',express.static(path.join(__dirname,'assets')));
-
